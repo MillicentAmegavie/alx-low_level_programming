@@ -3,7 +3,8 @@
 /**
  * main -  The Entry Point
  *
- * Prints the alphabet in lowercase, and then in uppercase after using the function putchar.
+ * Prints the alphabet in lowercase, and then in uppercase,
+ * using the function putchar.
  *
  * Return: 0 on Success.
  */
