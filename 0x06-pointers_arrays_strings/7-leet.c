@@ -8,25 +8,23 @@
 
 char *leet(char *m)
 {
-	int a = 0;
-	int b = 0;
-	int c = 0;
+	int c = 0, u;
+	int l[] = {97, 101, 111, 116, 108};
+	int q[] = {65, 69, 79, 84, 76};
+	int n[] = {52, 51, 48, 55, 49};
 
-	char d[] = "oOlLeEaAtT";
-	char e[] = "0011334477";
-
-	while (m[a] != '\0')
+	while (*(m + c) != '\0')
 	{
-		while (d[b] != '\0')
+		for (u = 0; u < 5; u++)
 		{
-			if (m[a] == d[b])
+			if (*(m + c) == l[u] || *(m + c) == q[u])
 			{
-				c = b;
-				m[a] = e[c];
+				*(m + c) = n[u];
+				break;
 			}
-			b++;
 		}
-		a++;
+		c++;
 	}
+
 	return (m);
 }
