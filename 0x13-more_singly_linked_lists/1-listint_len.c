@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * listint_len - The Entry Point. 
+ * listint_len - The Entry Point.
  * Description - Returns the number of elements in
  * a linked list.
  * @h: A pointer to the head of a list.
